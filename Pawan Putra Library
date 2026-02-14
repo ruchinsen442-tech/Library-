@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library - Competition Books</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; text-align: center; }
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        p { color: #7f8c8d; margin-bottom: 30px; }
+        
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1000px; margin: 0 auto; }
+        
+        .book-card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .book-card:hover { transform: translateY(-5px); }
+        
+        .category-icon { font-size: 40px; margin-bottom: 10px; }
+        .book-title { font-size: 20px; font-weight: bold; color: #34495e; }
+        .book-info { font-size: 14px; color: #95a5a6; margin: 10px 0; }
+        
+        .download-btn { display: inline-block; background-color: #27ae60; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background 0.3s; }
+        .download-btn:hover { background-color: #219150; }
+        
+        footer { margin-top: 40px; color: #bdc3c7; font-size: 12px; }
+    </style>
+</head>
+<body>
+
+    <h1>📚 Digital Library Hub</h1>
+    <p>Apni Competition Book chuney aur Download karein</p>
+
+    <div class="grid-container">
+        <div class="book-card">
+            <div class="category-icon">🏛️</div>
+            <div class="book-title">UPSC / Civil Services</div>
+            <p class="book-info">NCERT, Polity, History, Ethics</p>
+            <a href="https://drive.google.com/file/d/1UPEgXhWEInAyk_OWHNtpgbn0ozj32juN/view?usp=drivesdk" class="download-btn" target="_blank">Download PDF</a>
+        </div>
+
+        <div class="book-card">
+            <div class="category-icon">📈</div>
+            <div class="book-title">SSC / CGL / CHSL</div>
+            <p class="book-info">Maths, English, Reasoning Notes</p>
+            <a href="https://drive.google.com/file/d/1UPEgXhWEInAyk_OWHNtpgbn0ozj32juN/view?usp=drivesdk" class="download-btn" target="_blank">Download PDF</a>
+        </div>
+
+        <div class="book-card">
+            <div class="category-icon">💰</div>
+            <div class="book-title">Banking & Insurance</div>
+            <p class="book-info">Aptitude, GA, Banking Awareness</p>
+            <a href="https://drive.google.com/file/d/1UPEgXhWEInAyk_OWHNtpgbn0ozj32juN/view?usp=drivesdk" class="download-btn" target="_blank">Download PDF</a>
+        </div>
+
+        <div class="book-card">
+            <div class="category-icon">🗞️</div>
+            <div class="book-title">Current Affairs (Feb 2026)</div>
+            <p class="book-info">Monthly Magazine & MCQ</p>
+            <a href="https://drive.google.com/file/d/1UPEgXhWEInAyk_OWHNtpgbn0ozj32juN/view?usp=drivesdk" class="download-btn" target="_blank">Download PDF</a>
+        </div>
+    </div>
+
+    <footer>Library Management System &copy; 2026</footer>
+
+</body>
+</html>
